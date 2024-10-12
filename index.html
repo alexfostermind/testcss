@@ -1,0 +1,124 @@
+<div class="sharethis-inline-share-buttons"></div>
+<p class="License autors_"><span>Under a Creative Commons </span><a class="anchor anchor-default" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noreferrer noopener"><span class="anchor-text">license</span><svg focusable="false" viewBox="0 0 78 128" aria-label="Opens in new window" width="1em" height="1em" class="icon icon-arrow-up-right arrow-external-link"><path d="m4 36h57.07l-59.5 59.5 7.07 7.08 59.36-59.36v56.78h1e1v-74h-74z"></path></svg></a></p>
+<div class="content">
+    <p>The worldwide phenomenon that is Taylor Swift’s Eras Tour hasn’t just captured the hearts of her fans—it's been an economic force that has boosted local economies across multiple continents. From ticket sales and merchandise to hospitality and tourism, the financial ripple effect has been staggering.</p>
+
+    <h2>The Unexpected Economic Windfall</h2>
+    <p>Cities hosting the Eras Tour concerts have reported a dramatic increase in economic activity. Swifties are traveling far and wide to attend the concerts, and their spending isn’t limited to tickets. Hotel stays, dining, transportation, and local tourism have all surged in cities like Stockholm, Paris, and Sydney.</p>
+    
+    <h3>Record-Breaking Revenues</h3>
+    <p>For example, Stockholm’s local government reported a 20% increase in tourism-related revenue during Swift’s concert weekend, with the hospitality sector alone gaining millions in additional sales. In Paris, hotels were booked out for weeks, and local businesses saw significant growth in foot traffic.</p>
+    
+    <h4>Travel and Accommodation Impact</h4>
+    <p>Across Europe, Taylor Swift’s tour has become a catalyst for increased tourism. Fans from countries with more expensive tickets (like the U.S.) are traveling to European cities to enjoy both a concert and a vacation. This cross-continental travel has generated significant revenue for airlines, hotels, and even local attractions.</p>
+
+    <p>According to a study from DashTickets, the top cities benefiting from the influx of concert-goers include:</p>
+    
+    <ul>
+        <li>**Paris**: 18% increase in hotel bookings during concert dates</li>
+        <li>**Stockholm**: 20% increase in tourism spending</li>
+        <li>**Madrid**: 15% rise in restaurant revenue</li>
+    </ul>
+
+    <p>While U.S. fans often pay as much as $2,000 for a single ticket, those attending the European leg of the tour report spending far less, even when factoring in travel costs. This has sparked a wave of international concert tourism, a phenomenon that’s significantly contributing to Europe’s local economies.</p>
+    
+    <h4>Global Comparison of Ticket Prices</h4>
+    <p>Ticket prices for Taylor Swift’s concerts vary significantly by region, with European countries generally offering the most affordable options. Swift’s decision to play multiple shows in major European cities has helped bring down prices due to competitive ticket markets.</p>
+
+    <button class="btn" id="ticketComparison">Compare Ticket Prices</button>
+
+    <div class="price-comparison hidden" id="comparisonTable">
+        <table>
+            <tr>
+                <th>City</th>
+                <th>Ticket Price (USD)</th>
+                <th>Local Impact</th>
+            </tr>
+            <tr>
+                <td>Stockholm, Sweden</td>
+                <td>$152</td>
+                <td>20% Increase in Tourism Revenue</td>
+            </tr>
+            <tr>
+                <td>Paris, France</td>
+                <td>$171</td>
+                <td>18% Increase in Hotel Bookings</td>
+            </tr>
+            <tr>
+                <td>Madrid, Spain</td>
+                <td>$196</td>
+                <td>15% Rise in Restaurant Revenue</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!-- Styles for the Page -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fafafa;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        background-color: #ffdd00;
+        color: black;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .content {
+        width: 70%;
+        margin: 30px auto;
+        background-color: white;
+        padding: 30px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 25px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    /* Subtle CSS Bug: Padding issue on small screens (overflow on mobile due to large fixed width) */
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+    table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    table th, table td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .hidden {
+        display: none;
+    }
+</style>
+
+
+<script>
+    const ticketComparisonBtn = document.getElementById('ticketComparison');
+    const comparisonTable = document.getElementById('comparisonTable');
+
+    ticketComparisonBtn.addEventListener('click', function() {
+        if (comparisonTable.style.display === 'none') {
+            comparisonTable.style.display = 'block';
+        } else {
+            comparisonTable.style.display = 'none';
+        }
+    });
+</script>
